@@ -15,7 +15,7 @@ PRIMARY_FONT_PATH = "fonts/Cambo-Regular.ttf"
 SECONDARY_FONT_PATH = "fonts/ArialTh.ttf"
 
 # Data
-TSV_FILE_PATH = "data/STAGING - Master Grad List  - DATA - FINAL.tsv"
+TSV_FILE_PATH = "data/Award Recipients - 2022-2023 - DATA 1018.tsv"
 TABLE_FIELDS = "status student_id full_name first_name last_name ont_scholar honour_roll awards awards_prep certificat_prep not_ossd".split()
 
 # Image paths
@@ -25,8 +25,9 @@ SCHOOL_LOGO_PATH = PHOTOS_BASE_DIR / "school_logo.png"
 # The subdirectories in your photos base dir
 # The topmost directories have the higher priority
 PHOTO_DIRECTORIES = [
-    "RETAKES",
-    "ORIGINALS",
+    "RETAKES/Name With ID",
+    "202324",
+    "ORIGINALS/Name With ID",
 ]
 
 OUTPUT_PDF_FILENAME = "slideshow.pdf"
